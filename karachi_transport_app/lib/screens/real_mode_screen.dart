@@ -5,7 +5,8 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import '../widgets/route_summary_card.dart';
 
-const String baseUrl = "http://localhost:8000";
+const String baseUrl = "https://aai-assignment-backend.onrender.com"; // Replace with your actual Render URL
+//const String baseUrl = "http://localhost:8000"; // Previous code when i was running on localhost
 
 class RealModeScreen extends StatefulWidget {
   const RealModeScreen({super.key});
