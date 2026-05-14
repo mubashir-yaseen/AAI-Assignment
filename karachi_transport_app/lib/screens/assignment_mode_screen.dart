@@ -5,7 +5,6 @@ import '../widgets/route_summary_card.dart';
 
 
 const String baseUrl = "https://aai-assignment-backend.onrender.com"; // Replace with your actual Render URL
-//const String baseUrl = "http://localhost:8000"; // Previous code when i was running on localhost
 
 class AssignmentModeScreen extends StatefulWidget {
   const AssignmentModeScreen({super.key});
